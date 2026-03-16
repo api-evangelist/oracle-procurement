@@ -1,5 +1,5 @@
 aid: oracle-procurement
-name: Oracle Procurement APIs
+name: Oracle Procurement
 description: >-
   A collection of APIs for Oracle Procurement Cloud services, enabling
   procurement processes, supplier management, purchasing, and spend analysis.
