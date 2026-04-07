@@ -8,11 +8,11 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - ERP
   - Procurement
   - Purchasing
-  - Suppliers
   - Spend Management
-  - ERP
+  - Suppliers
 created: '2024-01-01'
 modified: '2026-03-16'
 url: >-
@@ -27,67 +27,58 @@ apis:
     humanUrl: https://docs.oracle.com/en/cloud/saas/procurement/
     baseUrl: https://your-instance.oraclecloud.com/fscmRestApi/resources/latest
     tags:
+      - Procurement
+      - Purchase Orders
+      - Requisitions
       - REST
-      - procurement
-      - purchase orders
-      - requisitions
     properties:
       - type: Documentation
         url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/
       - type: OpenAPI
-        url: 
-          https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/api-procurement.html
+        url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/api-procurement.html
       - type: Authentication
-        url: 
-          https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/Authentication.html
+        url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/Authentication.html
   - name: Purchase Orders API
     description: >-
       Create, update, and manage purchase orders.
     humanUrl: https://docs.oracle.com/en/cloud/saas/procurement/
-    baseUrl: 
-      https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/purchaseOrders
+    baseUrl: https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/purchaseOrders
     tags:
-      - purchase orders
-      - buying
+      - Buying
+      - Purchase Orders
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-purchaseorders-get.html
+        url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-purchaseorders-get.html
   - name: Requisitions API
     description: >-
       Manage purchase requisitions and approval workflows.
     humanUrl: https://docs.oracle.com/en/cloud/saas/procurement/
-    baseUrl: 
-      https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/requisitions
+    baseUrl: https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/requisitions
     tags:
-      - requisitions
-      - approvals
+      - Approvals
+      - Requisitions
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-requisitions-get.html
+        url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-requisitions-get.html
   - name: Suppliers API
     description: >-
       Access and manage supplier information, sites, and contacts.
     humanUrl: https://docs.oracle.com/en/cloud/saas/procurement/
-    baseUrl: 
-      https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/suppliers
+    baseUrl: https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/suppliers
     tags:
-      - suppliers
-      - vendor management
+      - Suppliers
+      - Vendor Management
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-suppliers-get.html
+        url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-suppliers-get.html
   - name: Purchase Agreements API
     description: >-
       Manage blanket purchase agreements and contract terms.
     humanUrl: https://docs.oracle.com/en/cloud/saas/procurement/
-    baseUrl: 
-      https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/purchaseAgreements
+    baseUrl: https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/purchaseAgreements
     tags:
-      - agreements
-      - contracts
+      - Agreements
+      - Contracts
     properties:
       - type: Documentation
         url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/
@@ -95,18 +86,16 @@ apis:
     description: >-
       Record and manage receipt transactions for purchased goods and services.
     humanUrl: https://docs.oracle.com/en/cloud/saas/procurement/
-    baseUrl: 
-      https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/receipts
+    baseUrl: https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/receipts
     tags:
-      - receipts
-      - receiving
+      - Receipts
+      - Receiving
     properties:
       - type: Documentation
         url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/
 common:
   - type: Getting Started
-    url: 
-      https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/QuickStart.html
+    url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/QuickStart.html
   - type: Authentication
     url: https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/
   - type: Portal
