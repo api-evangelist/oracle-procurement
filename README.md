@@ -1,28 +1,31 @@
-# Oracle Procurement APIs (oracle-procurement)
-A collection of APIs for Oracle Procurement Cloud services, enabling procurement processes, supplier management, purchasing, and spend analysis
+# Oracle Procurement (oracle-procurement)
 
-**URL:** [Visit APIs.json URL](https://www.oracle.com/scm/procurement/)
+A collection of APIs for Oracle Procurement Cloud services, enabling procurement processes, supplier management, purchasing, and spend analysis.
 
-## Tags:
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/oracle-procurement/refs/heads/main/apis.yml)
 
- - procurement, purchasing, suppliers, spend management, ERP
+## Tags
+
+- ERP, Procurement, Purchasing, Spend Management, Suppliers
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Oracle Procurement REST API
-REST API for managing procurement operations including requisitions, purchase orders, and supplier information
+
+REST API for managing procurement operations including requisitions, purchase orders, and supplier information.
 
 **Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
 
+**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest`
 
-#### Tags:
+#### Tags
 
- - REST, procurement, purchase orders, requisitions
+- Procurement, Purchase Orders, Requisitions, REST
 
 #### Properties
 
@@ -31,70 +34,80 @@ REST API for managing procurement operations including requisitions, purchase or
 - [Authentication](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/Authentication.html)
 
 ### Purchase Orders API
-Create, update, and manage purchase orders
+
+Create, update, and manage purchase orders.
 
 **Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
 
+**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/purchaseOrders`
 
-#### Tags:
+#### Tags
 
- - purchase orders, buying
+- Buying, Purchase Orders
 
 #### Properties
 
 - [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-purchaseorders-get.html)
 
 ### Requisitions API
-Manage purchase requisitions and approval workflows
+
+Manage purchase requisitions and approval workflows.
 
 **Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
 
+**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/requisitions`
 
-#### Tags:
+#### Tags
 
- - requisitions, approvals
+- Approvals, Requisitions
 
 #### Properties
 
 - [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-requisitions-get.html)
 
 ### Suppliers API
-Access and manage supplier information, sites, and contacts
+
+Access and manage supplier information, sites, and contacts.
 
 **Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
 
+**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/suppliers`
 
-#### Tags:
+#### Tags
 
- - suppliers, vendor management
+- Suppliers, Vendor Management
 
 #### Properties
 
 - [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-suppliers-get.html)
 
 ### Purchase Agreements API
-Manage blanket purchase agreements and contract terms
+
+Manage blanket purchase agreements and contract terms.
 
 **Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
 
+**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/purchaseAgreements`
 
-#### Tags:
+#### Tags
 
- - agreements, contracts
+- Agreements, Contracts
 
 #### Properties
 
 - [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/)
 
 ### Receipts API
-Record and manage receipt transactions for purchased goods and services
+
+Record and manage receipt transactions for purchased goods and services.
 
 **Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
 
+**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/receipts`
 
-#### Tags:
+#### Tags
 
- - receipts, receiving
+- Receipts, Receiving
 
 #### Properties
 
@@ -110,6 +123,5 @@ Record and manage receipt transactions for purchased goods and services
 
 ## Maintainers
 
-**FN:** Oracle Corporation
-
-**Email:** cloud-support@oracle.com
+- **FN:** Kin Lane
+- **Email:** kin@apievangelist.com
