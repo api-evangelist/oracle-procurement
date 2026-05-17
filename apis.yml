@@ -94,7 +94,7 @@ apis:
       - type: Documentation
         url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/
 common:
-  - type: Getting Started
+  - type: GettingStarted
     url: https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/QuickStart.html
   - type: Authentication
     url: https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/
@@ -102,7 +102,7 @@ common:
     url: https://cloud.oracle.com/
   - type: Support
     url: https://www.oracle.com/support/
-  - type: Status
+  - type: StatusPage
     url: https://ocistatus.oraclecloud.com/
 maintainers:
   - FN: Kin Lane
