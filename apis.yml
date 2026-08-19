@@ -29,7 +29,7 @@ created: '2024-01-01'
 modified: '2026-04-28'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/oracle-procurement/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - name: Oracle Procurement REST API
     description: >-
