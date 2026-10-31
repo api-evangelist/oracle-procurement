@@ -1,4 +1,4 @@
-# Oracle Procurement (oracle-procurement)
+# Oracle Procurement
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,126 +66,108 @@
 
 A collection of APIs for Oracle Procurement Cloud services, enabling procurement processes, supplier management, purchasing, and spend analysis.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/oracle-procurement/refs/heads/main/apis.yml)
+**Areas:** ERP · Procurement · Purchasing · Spend Management · Suppliers
 
-## Tags
+## Oracle Procurement on APIs.io
 
-- ERP, Procurement, Purchasing, Spend Management, Suppliers
+Everything profiled for Oracle Procurement is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oracle-procurement/](https://apis.io/providers/oracle-procurement/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (6)
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+- [Oracle Procurement REST API](https://apis.io/apis/oracle-procurement/oracle-procurement-rest-api/) — REST API for managing procurement operations including requisitions, purchase orders, and supplier information.
+- [Purchase Orders API](https://apis.io/apis/oracle-procurement/purchase-orders-api/) — Create, update, and manage purchase orders.
+- [Requisitions API](https://apis.io/apis/oracle-procurement/requisitions-api/) — Manage purchase requisitions and approval workflows.
+- [Suppliers API](https://apis.io/apis/oracle-procurement/suppliers-api/) — Access and manage supplier information, sites, and contacts.
+- [Purchase Agreements API](https://apis.io/apis/oracle-procurement/purchase-agreements-api/) — Manage blanket purchase agreements and contract terms.
+- [Receipts API](https://apis.io/apis/oracle-procurement/receipts-api/) — Record and manage receipt transactions for purchased goods and services.
 
-## APIs
+### Published properties
 
-### Oracle Procurement REST API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-REST API for managing procurement operations including requisitions, purchase orders, and supplier information.
+#### Security (1)
 
-**Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
+Authentication, trust centre, and vulnerability disclosure.
 
-**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest`
+- [Oracle Procurement Domain Security](https://apis.io/security/oracle-procurement/oracle-procurement-domain-security/)
 
-#### Tags
+#### Plans and pricing (1)
 
-- Procurement, Purchase Orders, Requisitions, REST
+Published plans, tiers and prices.
 
-#### Properties
+- [Oracle Procurement Plans Pricing](https://apis.io/plans/oracle-procurement/oracle-procurement-plans-pricing/)
 
-- [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/)
-- [OpenAPI](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/api-procurement.html)
-- [Authentication](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/Authentication.html)
+#### Rate limits (1)
 
-### Purchase Orders API
+Published request limits.
 
-Create, update, and manage purchase orders.
+- [Oracle Procurement Rate Limits](https://apis.io/rate-limits/oracle-procurement/oracle-procurement-rate-limits/)
 
-**Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
+#### FinOps (1)
 
-**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/purchaseOrders`
+What the API costs to run, by operation.
 
-#### Tags
+- [Oracle Procurement Finops](https://apis.io/finops/oracle-procurement/oracle-procurement-finops/)
 
-- Buying, Purchase Orders
+## Where to find this API
 
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-purchaseorders-get.html)
-
-### Requisitions API
-
-Manage purchase requisitions and approval workflows.
-
-**Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
-
-**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/requisitions`
-
-#### Tags
-
-- Approvals, Requisitions
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-requisitions-get.html)
-
-### Suppliers API
-
-Access and manage supplier information, sites, and contacts.
-
-**Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
-
-**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/suppliers`
-
-#### Tags
-
-- Suppliers, Vendor Management
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/op-suppliers-get.html)
-
-### Purchase Agreements API
-
-Manage blanket purchase agreements and contract terms.
-
-**Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
-
-**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/purchaseAgreements`
-
-#### Tags
-
-- Agreements, Contracts
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/)
-
-### Receipts API
-
-Record and manage receipt transactions for purchased goods and services.
-
-**Human URL:** [https://docs.oracle.com/en/cloud/saas/procurement/](https://docs.oracle.com/en/cloud/saas/procurement/)
-
-**Base URL:** `https://your-instance.oraclecloud.com/fscmRestApi/resources/latest/receipts`
-
-#### Tags
-
-- Receipts, Receiving
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/)
-
-## Common Properties
-
-- [Getting Started](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/QuickStart.html)
-- [Authentication](https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/)
-- [Portal](https://cloud.oracle.com/)
+- [Website](https://oracle.com)
+- [Getting started](https://docs.oracle.com/en/cloud/saas/procurement/23d/fapra/QuickStart.html)
 - [Support](https://www.oracle.com/support/)
+- [GitHub](https://github.com/oracle)
 - [Status](https://ocistatus.oraclecloud.com/)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Kin Score 24.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 7.9 |
+
+**Agent readiness 16.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/oracle-procurement/](https://apis.io/providers/oracle-procurement/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Oracle Procurement: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/oracle-procurement/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
